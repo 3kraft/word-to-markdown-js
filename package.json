@@ -77,5 +77,6 @@
   "bin": {
     "w2m": "build/cli.js"
   },
-  "main": "build/main.js"
+  "main": "build/main.js",
+  "types": "build/main.d.ts"
 }

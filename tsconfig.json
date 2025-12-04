@@ -19,7 +19,9 @@
     "noImplicitThis": false,
     "strictNullChecks": false,
     "esModuleInterop": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "declaration": true,          // <-- generate .d.ts files
+    "emitDeclarationOnly": false, // <-- keep JS output too (default)
   },
   "include": ["src/**/*"],
   "exclude": ["src/__tests__/**/*"]
